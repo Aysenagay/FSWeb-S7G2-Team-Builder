@@ -4,7 +4,7 @@ const Form = (props) => {
   const { handleChange, handleSubmit, ekip } = props;
   return (
     <form onSubmit={handleSubmit}>
-      <label id="a">İSİM</label>
+      <label id="a">İsim Soyisim</label>
       <input
         id="a"
         type="text"
@@ -12,7 +12,7 @@ const Form = (props) => {
         onChange={handleChange}
         value={ekip.name}
       />
-      <label id="b">EMAİL</label>
+      <label id="b">Email</label>
       <input
         id="b"
         type="text"
@@ -20,7 +20,7 @@ const Form = (props) => {
         onChange={handleChange}
         value={ekip.email}
       />
-      <label id="c">ROL</label>
+      <label id="c">Rolünüz</label>
       <input
         id="c"
         type="text"

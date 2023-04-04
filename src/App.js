@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>BİZE KATIL!</h1>
+      <h1 className="baslik">BİZE KATIL!</h1>
       <Form
         ekip={ekip}
         handleSubmit={handleSubmit}
